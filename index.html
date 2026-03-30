@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Kosugi+Maru&display=swap" rel="stylesheet">
+  <title>NYANCO - Meme Coin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="card">
+      <h1 class="section-title"><img src="icon.png" alt="nyanko icon" class="title-icon">
+      <span class="title-text">NYANCO</span>
+      </h1>
+      <p class="subtitle"></p>
+      <p>it's just a meme coin on solana. but...<br>「Instead of superchats, send NYANCO. Instead of gifts, give NYANCO.」<br>
+We will build that kind of world.</p>
+    </header>
+
+    <section class="card new-info">
+      <h2>New info</h2>
+       <p>.</p>
+    </section>
+
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        NYANCO is a coin on solana.<br>
+        No financial utility, no promises, no guarantees.<br>
+        Don't use funds you can't afford to lose.
+      </p>
+      <p>
+        This meme coin is not based on any existing meme.<br>
+        Just kawaii feelings — and an original character.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Token Info</h2>
+      <ul>
+        <li><strong>Chain:</strong> Solana</li>
+        <li><strong>Ticker:</strong> NYANCO</li>
+        <li><strong>Supply:</strong> 4,294,967,296(2^32) NYANCO</li>
+        <li><strong>DEX LP:</strong> 1,073,741,824(2^30) NYANCO<br> (75% of the total supply is locked in the official token address
+and will never be moved.)</li>
+      </ul>
+
+      <p class="label">Token Address</p>
+      <code>PASTE_TOKEN_ADDRESS_HERE</code>
+    </section>
+
+
+    <section class="card stream-box">
+    <h2>support official</h2>
+  <div class="stream-layout">
+
+    <!-- 配信画面 -->
+    <div class="stream-video">
+      <div class="stream-overlay">
+        <span class="live">● LIVE (demo)</span>
+      </div>
+      <div id="streamComments" class="stream-comments">
+        <!--
+        <p><span class="user">anon:</span> 萌えは義務</p>
+        <p><span class="user">supporter:</span> NYANCO送った！</p>
+        <p><span class="user">moe_fan:</span> I'm here!</p>
+        <p id="last-user"><span class="user">moe_fan:</span> 配信待ってた</p>
+        <p id="last-user"><span class="user">moe_fan:</span> 配信待ってた</p>
+        -->
+      </div>
+      <div class="stream-character">
+        <img src="background.gif" alt="Official character streaming">
+      </div>
+    </div>
+
+    <!-- チャット欄 -->
+    <div class="stream-chat">
+      <div class="chat-header">Chat</div>
+      <div class="chat-messages">
+        <!--
+        <p><span class="user">OBSERVER:100NYANCO</span> <br>DO STREAM</p>
+        <p class="chat-tier chat-blue"><span class="user">blue:</span><span class="user">1000NYANCO</span> 1000 NYANCO i threw!</p>
+        <p class="chat-tier chat-red"><span class="user">bigfan:</span><span class="user">5000NYANCO</span> 5000 NYANCO i fucking send！</p>
+        <p class="chat-tier chat-ultimate"><span class="user">bigfan:</span><span class="user">10000NYANCO</span> 10000 NYANCO my all NYANCO</p>
+        -->
+      </div>
+      <div class="chat-footer">
+        <!-- トリガー -->
+        <span class="chat-help-link">How to send a chat?</span>
+
+        <!-- モーダル -->
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+    </section>
+
+　<section class="card for-streamers">
+  <h2>For Streamers</h2>
+  <p>
+    you can add this messages system like her↑!,
+    not yet, maybe in the future.
+  </p>
+  <p>
+    You will be able to add this support system to your own stream
+    and receive NYANCO as messages and appreciation.
+  </p>
+  <p class="coming-soon">
+    Not available yet. Coming someday.
+  </p>
+</section>
+
+    <section class="card links">
+      <a href="#" target="_blank">X (Twitter)</a>
+      <a href="#" target="_blank">DEX</a>
+      <a href="#" target="_blank">GitHub</a>
+    </section>
+
+    <footer>
+      <p>This is a meme coin. No financial advice.</p>
+    </footer>
+
+  </div>
+  <div class="chat-modal">
+  <div class="chat-modal-content">
+  <span class="chat-modal-close">&times;</span>
+  <h2>How to send a chat</h2>
+  <p>
+    1.Connect your Phantom wallet<br>
+    2.Enter your message<br>
+    3.Send the required amount with the transaction<br>
+  Your message will be recorded and may appear on the stream.<br>
+  Messages are reviewed manually, so it may take some time before they appear.
+  <p class="center">100+ NYANCO    — Normal Chat<br>1,000+ NYANCO  — Blue Chat<br>5,000+ NYANCO  — Red Chat<br>10,000+ NYANCO — white Chat<br><button id="connect-wallet">
+Connect Phantom</button></p>
+  <div id="chat-form" class="chat-form">
+    <input id="chat-amount" type="number" step="1" placeholder="NYANCO(min100) amount">
+    <input id="chat-name" placeholder="Name (optional)">
+    <textarea id="chat-message" placeholder="Your message"></textarea>
+    <div id="char-counter"></div>
+    <button id="send-chat">Send Chat</button>
+  </div>
+  ⚠ Warning<br>
+  ☆Because the system is currently manual, site updates may take some time to reload.<br>
+  Do not use funds you cannot afford to lose.<br>
+  NYANCO sent through this feature is not sent to the official token address.<br>
+  It is sent to the official financial address and used as engineering rewards for development.<br>
+  
+  </p>
+  </div>
+  </div>
+  <!--<script src="https://unpkg.com/@solana/web3.js@1.87.6/lib/index.iife.min.js"></script>-->
+  <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+  <script src="script.js"></script>
+  <script src="chat.js"></script>
+  <!--<script src="test.js"></script>-->
+</body>
+
+
+</body>
+</html>
