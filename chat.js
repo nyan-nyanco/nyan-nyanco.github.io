@@ -1,11 +1,11 @@
 // =============================
 // SETTINGS
 // =============================
-const NYANCO_MINT = "HXVAWuvZaqrgUjjtJuGizbBkqBPb6iv9MHT4eB5Ypump";
-const TREASURY = "GJC8b7x8fCfTPMtiJRMDravSHXfjdsiwnv5c39JSM1Et";
+const NYANCO_MINT = "231kupwLb3xvfvRaF9uTYg95GGpJD7EVG2iBwndRbAk1";
+const TREASURY = "6AAPtJxAKEW6yRWDTKN7HuCSz3jch6oABwwZp2pEdm2y";
 const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1481916009500770397/cRpvDH6O9Qbpx-RjswuqCr2HuPj6rGabCL25xNW93ls9sRtI783yNHMd2p9mQuJUI1Ks";
 
-const DECIMALS = 6;
+const DECIMALS = 9;
 
 const TOKEN_PROGRAM_ID = new solanaWeb3.PublicKey(
   "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
