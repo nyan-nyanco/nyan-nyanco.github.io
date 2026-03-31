@@ -1,1 +1,21 @@
-
+{
+  "name": "NYANCOIN",
+  "symbol": "NYANCO",
+  "description": "",
+  "image": "ここに画像の直リンク",
+  "external_url": "https://nyan-nyanco.github.io/", 
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "ここに画像の直リンク",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "links": {
+      "x": "https://x.com/nyanco_jp_en",
+      "website": "https://nyan-nyanco.github.io/"
+    }
+  }
+}
