@@ -349,7 +349,7 @@ footer {
 
 /* ネオン枠 */
 .chat-tier {
-  width: auto;
+  width: 100%;
   display: inline-block;
   position: relative;
   position: relative;
